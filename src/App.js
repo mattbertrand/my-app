@@ -4,7 +4,11 @@ import ContactCard from './ContactCard'
 
 const App = () => {
   return (
-    <ContactCard />
+    <div>
+      <ContactCard />
+      <ContactCard />
+      <ContactCard />
+    </div>
   )
 }
 
